@@ -20,4 +20,11 @@ daisy = CatTreeNode("Daisy", tiptoe, rosie)
 # Each node has a text field with the name and references to the “left” and “right” descendants.
 # The task is to write a piece of code that traverses all the nodes of the tree and displays all names.
 
-#making a change
+def cat_lookup(cat):
+    print(cat.cat_name)
+    if cat.left_child:
+        cat_lookup(cat.left_child)
+    if cat.right_child:
+        cat_lookup(cat.right_child)
+
+cat_lookup(daisy)
