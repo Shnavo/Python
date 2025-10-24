@@ -19,3 +19,5 @@ daisy = CatTreeNode("Daisy", tiptoe, rosie)
 # We have a binary tree with nodes containing cats’ names.
 # Each node has a text field with the name and references to the “left” and “right” descendants.
 # The task is to write a piece of code that traverses all the nodes of the tree and displays all names.
+
+#making a change
